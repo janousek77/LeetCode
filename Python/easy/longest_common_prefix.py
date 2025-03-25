@@ -1,6 +1,7 @@
 from typing import List
 import sys
 
+# https://leetcode.com/problems/longest-common-prefix/
 def longestCommonPrefix(strs: List[str]) -> str:
     if not strs:
         return ""

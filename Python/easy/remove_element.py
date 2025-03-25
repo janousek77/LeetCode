@@ -1,5 +1,6 @@
 from typing import List
 
+# https://leetcode.com/problems/remove-element/description/
 def removeElement(nums: List[int], val: int) -> int:
     i = 0
     while i < len(nums):
