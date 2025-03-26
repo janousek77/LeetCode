@@ -14,4 +14,3 @@ def height(node: Optional[TreeNode]) -> int:
 
 print(isBalanced(TreeNode.build_tree_from_array([3,9,20,None,None,15,7]))) # True
 print(isBalanced(TreeNode.build_tree_from_array([1,2,2,3,3,None,None,4,4]))) # False
-print('minimum-depth-of-binary-tree'.replace('-', '_'))
